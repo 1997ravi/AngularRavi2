@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+
+  getName(){
+    console.log("get name called")
+    alert("get name called")
+  }
 }
